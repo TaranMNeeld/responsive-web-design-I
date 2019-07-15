@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid grey;
 }
 
 html, body {
@@ -63,128 +64,43 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-span {
-	max-width: 100%;
+.container {
+	width: 880px;
+	margin: 0 auto;
 }
 
+/*Header*/
 nav {
-	margin: 1%; 
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	justify-content: space-around;
 }
 
-a {
-	width: 15%;
-	height: 5%;
-	color: white;
-	margin: 2%;
-	color: grey;
-}
-
-h1 {
-	font-size: 100%;
-}
-
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 15%;
-}
-
-#motto button {
-	width: 35%;
-	height: 25%;
-}
-
-#features {
-	position: absolute;
-	width: 25%;
-	height: 25%;
-	left: 5%;
-	top: 25%;
-}
-
-#about {
-	width: 25%;
-	height: 25%;
-	right: 15%;
-}
-
-#services {
-	width: 25%;
-	height: 25%;
-	right: 10%;
-}
-
-#product {
-	width: 25%;
-	height: 25%;
-	right: 40%;
-}
-
-#vision {
-	width: 25%;
-	height: 25%;
-	left: 15%;
-}
-
-footer #copyright {
-	text-align: center;
-	bottom: 2%;
-}
-
-#contact-div {
-	bottom: 0;
-	height: 15%;
-}
-
-.container button {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-}
-
-.container h1 {
+img .logo {
 	display: inline-block;
-	vertical-align: top;
-	font-size: 77px;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 75px;
+	border: box;
 }
 
-.top-container div {
-	display: inline-block;
-	margin: 3%;
+/*topContent*/
+.topLeft {
+	font-size: 80px;
 }
 
-.bottom-container div {
-	display: inline-block;
-	margin: 4%;
+.topRight {
+	margin: 5%;
 }
 
-.logo {
-	position: absolute;
-	right: 2%;
-	top: 2%;
+.topMiddle {
+	display: flex;
 }
 
-.center-right {
-	position: absolute;
-	right: 10%;
-	width: 35%;
-	height: 35%;
-	top: 10%;
+.topMiddle #features {
+	flex-direction: column;
 }
 
-.middle-img {
-	width: 100%;
-	height: 5%;
-	max-width: 100%;
-	bottom: 20%;
-	margin-top: 5%;
-	margin-bottom: 5%;
+.topMiddle #about {
+	flex-direction: column;
 }
+
+/*Media Queries*/
