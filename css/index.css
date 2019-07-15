@@ -1,4 +1,3 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,228 +47,144 @@ table {
 	border-spacing: 0;
 }
 
+/* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
 }
 
-p {
-    line-height: 1.4;
+span {
+	max-width: 100%;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+nav {
+	margin: 1%; 
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+a {
+	width: 15%;
+	height: 5%;
+	color: white;
+	margin: 2%;
+	color: grey;
 }
 
-.container-row {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.single-container {
-    display: flex;
-    flex-direction: column;
-    margin: 1%;
-    margin-bottom: 2%;
-    border-bottom: 1px dotted grey;
-    width: 25%;
-}
-
-.top-container {
-    display: flex;
-    flex-direction: column;
-    margin: 1%;
-    width: 25%;
-}
-
-.bottom-container {
-    display: flex;
-    flex-direction: column;
-    margin: 1%;
-    margin-bottom: 2%;
-    width: 25%;
-}
-
-.text-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-
-button {
-    border-radius: 10px;
-    border: 2px solid black;
-    width: 40%;
-    height: 30px;
-    margin-bottom: 5%;
-    background: white;
-}
-
-.top-content .text-container {
-    display: flex;
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-    margin: 80px;
-}
-
-.top-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
-    margin: 2%;
-}
-
-.bottom-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
-    margin-bottom: 2%;
-}
-
-.bottom-home-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 60%;
-    margin-bottom: 2%;
-}
-
-.line {
-    border-bottom: 1px dotted grey;
-    margin-top: 2%;
-}
-
-.boxes {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-bottom: 2%;
-}
-
-.page-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.top-img {
-    margin-top: 2%;
-}
-
-.logo {
-    margin-top: 2%;
-    margin-right: 5%;
-}
-
-.middle-content {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2%;
-    width: 55%;
-    border-top: 1px dashed black;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    margin-top: 2%;
-    margin-left: 5%;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-home-content {
-    display: flex;
-    flex-direction: row;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+h1 {
+	font-size: 100%;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    background: black;
-    width: 55%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 15%;
 }
 
-footer nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+#motto button {
+	width: 35%;
+	height: 25%;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
-    margin-right: 70%;
+#features {
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	left: 5%;
+	top: 25%;
 }
 
-header nav {
-    display: flex;
-    vertical-align: top;
-    margin-top: 6%;
-  }
-  
-  header nav a {
-    margin-right: 65px;
-    font-size: 14px;
-    color: gray;
-    text-decoration: none;
-  }
+#about {
+	width: 25%;
+	height: 25%;
+	right: 15%;
+}
 
-  .head-container {
-    display: flex;
-  }
+#services {
+	width: 25%;
+	height: 25%;
+	right: 10%;
+}
 
+#product {
+	width: 25%;
+	height: 25%;
+	right: 40%;
+}
+
+#vision {
+	width: 25%;
+	height: 25%;
+	left: 15%;
+}
+
+footer #copyright {
+	text-align: center;
+	bottom: 2%;
+}
+
+#contact-div {
+	bottom: 0;
+	height: 15%;
+}
+
+.container button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.container h1 {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 75px;
+}
+
+.top-container div {
+	display: inline-block;
+	margin: 3%;
+}
+
+.bottom-container div {
+	display: inline-block;
+	margin: 4%;
+}
+
+.logo {
+	position: absolute;
+	right: 2%;
+	top: 2%;
+}
+
+.center-right {
+	position: absolute;
+	right: 10%;
+	width: 35%;
+	height: 35%;
+	top: 10%;
+}
+
+.middle-img {
+	width: 100%;
+	height: 5%;
+	max-width: 100%;
+	bottom: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
